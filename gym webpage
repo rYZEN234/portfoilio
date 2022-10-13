@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Alpha Fitness Gym</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(gym1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+
+    .left {
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        opacity: 100%;
+        /* border: 2px solid rgb(255, 255, 255); */
+        /* left: 34px;
+        top: 20px; */
+    }
+
+    .left img {
+        width: 130px;
+        height: 130px;
+        filter: invert(100%);
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .left h1 {
+        color: white;
+        font-size: 13px;
+        position: relative;
+        left: 33px;
+        top: -42px;
+    }
+
+    .mid {
+        display: block;
+        width: 42%;
+        margin: 10px auto;
+        /* border: 2px solid orange;*/
+        position: relative;
+        bottom: 128px;
+        opacity: 100%;
+    }
+
+    .mid ul {
+        font-size: 20px;
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+        top: 53px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        opacity: 100%;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        /* padding-left: 10px; */
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+        cursor: pointer;
+    }
+
+    span {
+        border-right: 2px solid white;
+        padding: 0px 10px;
+    }
+
+    .navbar li a {
+        color: white;
+    }
+
+    .right input {
+        width: 200px;
+        height: 27px;
+        margin-top: 13px;
+        border-radius: 15px;
+        border: none;
+        width: 200px;
+    }
+
+    .right button {
+        margin-left: 20px;
+        height: 28px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
+
+    .container {
+        text-align: center;
+        color: aliceblue;
+        margin: 34px;
+        border: 2px solid white;
+        width: 46%;
+        border-radius: 11px;
+        cursor: pointer;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 34px;
+    }
+
+        .sign{
+            
+        display: block;
+        margin: auto;
+        width: 36%;
+        
+        
+
+    }
+
+    .sign input{
+        width: 195px;
+        margin-top: 10px;
+    }
+    .btn {
+        line-height: 20px;
+        border-radius: 9px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="vecteezy_simple-hand-muscle-activity-gym-logo-vector-icon_7491272.jpg">
+            <h1>Alpha Fitness gym</h1>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a><span>Home</span></a></li>
+                <li><a><span>About us</span></a></li>
+                <li><a><span>Fitness Tips</span></a></li>
+                <li><a>Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <input type="text" placeholder="   Enter text">
+            <button type="submit">Sign In</button>
+
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym.</h1>
+        <form action="noaction.php">
+            <div class="sign">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="contact no.">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="email address">
+                </div>
+                <button class="btn">submit</button>
+            </div>
+        </form>
+
+
+
+</body>
+
+</html>
